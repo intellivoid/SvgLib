@@ -1,0 +1,401 @@
+{
+    "package": {
+        "package_name": "net.intellivoid.svglib",
+        "name": "SvgLib",
+        "version": "1.0.0.0",
+        "author": "Zi Xing Narrakas",
+        "organization": "Intellivoid Technologies",
+        "description": "SVG Manipulation Library",
+        "url": "https://github.com/Intellivoid/SvgLib",
+        "dependencies": [],
+        "configuration": {
+            "autoload_method": "generated_spl",
+            "main": null,
+            "post_installation": [],
+            "pre_installation": []
+        }
+    },
+    "components": [
+        {
+            "required": true,
+            "file": "Nodes/SVGNodeContainer.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Texts/SVGTSpan.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Texts/SVGTextPath.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Texts/SVGTitle.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Texts/SVGText.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Texts/SVGDesc.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Shapes/SVGPath.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Shapes/SVGLine.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Shapes/SVGRect.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Shapes/SVGPolygonalShape.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Shapes/SVGPolyline.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Shapes/SVGEllipse.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Shapes/SVGCircle.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Shapes/SVGPolygon.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Filters/SVGFETurbulence.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Filters/SVGFEConvolveMatrix.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Filters/SVGFESpotLight.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Filters/SVGFEFuncB.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Filters/SVGFEDropShadow.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Filters/SVGFEOffset.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Filters/SVGFEGaussianBlur.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Filters/SVGFEMerge.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Filters/SVGFEDisplacementMap.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Filters/SVGFEComponentTransfer.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Filters/SVGFEComposite.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Filters/SVGFETile.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Filters/SVGFEFuncA.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Filters/SVGFEFuncR.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Filters/SVGFEMorphology.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Filters/SVGFEPointLight.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Filters/SVGFEDiffuseLighting.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Filters/SVGFEBlend.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Filters/SVGFEImage.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Filters/SVGFEMergeNode.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Filters/SVGFEDistantLight.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Filters/SVGFEFlood.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Filters/SVGFilter.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Filters/SVGFESpecularLighting.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Filters/SVGFEColorMatrix.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Filters/SVGFEFuncG.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/SVGGenericNodeType.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/SVGNode.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Embedded/SVGForeignObject.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Embedded/SVGImage.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Presentation/SVGMPath.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Presentation/SVGAnimateMotion.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Presentation/SVGRadialGradient.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Presentation/SVGSet.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Presentation/SVGLinearGradient.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Presentation/SVGStop.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Presentation/SVGAnimateTransform.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Presentation/SVGView.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Presentation/SVGAnimate.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Structures/SVGPattern.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Structures/SVGSwitch.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Structures/SVGMetadata.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Structures/SVGScript.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Structures/SVGDocumentFragment.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Structures/SVGUse.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Structures/SVGMask.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Structures/SVGSymbol.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Structures/SVGDefs.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Structures/SVGStyle.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Structures/SVGLinkGroup.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Structures/SVGFont.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Structures/SVGClipPath.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Structures/SVGMarker.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/Structures/SVGGroup.php"
+        },
+        {
+            "required": true,
+            "file": "Nodes/CDataContainer.php"
+        },
+        {
+            "required": true,
+            "file": "SVG.php"
+        },
+        {
+            "required": true,
+            "file": "Utilities/Units/Angle.php"
+        },
+        {
+            "required": true,
+            "file": "Utilities/Units/Length.php"
+        },
+        {
+            "required": true,
+            "file": "Utilities/Colors/ColorLookup.php"
+        },
+        {
+            "required": true,
+            "file": "Utilities/Colors/Color.php"
+        },
+        {
+            "required": true,
+            "file": "Utilities/SVGStyleParser.php"
+        },
+        {
+            "required": true,
+            "file": "Reading/LengthAttributeConverter.php"
+        },
+        {
+            "required": true,
+            "file": "Reading/SVGReader.php"
+        },
+        {
+            "required": true,
+            "file": "Reading/AttributeConverter.php"
+        },
+        {
+            "required": true,
+            "file": "Reading/NodeRegistry.php"
+        },
+        {
+            "required": true,
+            "file": "Reading/AttributeRegistry.php"
+        },
+        {
+            "required": true,
+            "file": "Writing/SVGWriter.php"
+        },
+        {
+            "required": true,
+            "file": "Rasterization/Renderers/PolygonRenderer.php"
+        },
+        {
+            "required": true,
+            "file": "Rasterization/Renderers/MultiPassRenderer.php"
+        },
+        {
+            "required": true,
+            "file": "Rasterization/Renderers/Renderer.php"
+        },
+        {
+            "required": true,
+            "file": "Rasterization/Renderers/ImageRenderer.php"
+        },
+        {
+            "required": true,
+            "file": "Rasterization/Renderers/RectRenderer.php"
+        },
+        {
+            "required": true,
+            "file": "Rasterization/Renderers/LineRenderer.php"
+        },
+        {
+            "required": true,
+            "file": "Rasterization/Renderers/TextRenderer.php"
+        },
+        {
+            "required": true,
+            "file": "Rasterization/Renderers/EllipseRenderer.php"
+        },
+        {
+            "required": true,
+            "file": "Rasterization/SVGRasterizer.php"
+        },
+        {
+            "required": true,
+            "file": "Rasterization/Path/PathParser.php"
+        },
+        {
+            "required": true,
+            "file": "Rasterization/Path/PathApproximator.php"
+        },
+        {
+            "required": true,
+            "file": "Rasterization/Path/PolygonBuilder.php"
+        },
+        {
+            "required": true,
+            "file": "Rasterization/Path/BezierApproximator.php"
+        },
+        {
+            "required": true,
+            "file": "Rasterization/Path/ArcApproximator.php"
+        }
+    ],
+    "files": []
+}
